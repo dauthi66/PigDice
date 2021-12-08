@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        //removes comments to the JS file
+        "removeComments": true,
+        //send to the js file
+        "outDir": "js",
+        "target": "ES5",
+        "watch": true
+    } 
+}

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    margin: 0 auto;
+    width: 450px;
+    padding: 0 2em 1em;
+    background-image: url(../images/pigImg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90em;
+    background-position-y: -5em;
+    
+}
+
+main {
+    border-radius: 1em;
+    position: relative;
+    top: 12em;
+    right: 5em;
+    border:5px double black;
+    background-color: lightpink;
+    padding: 0 1em 0 1em;
+}
+/* hide die value from player */
+#die {
+    visibility: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: .25em;
+}
+label {
+    width: 4em;
+    text-align: right;
+    padding-bottom: .5em;
+}
+input {
+    width: 4em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+fieldset {
+    margin-bottom: 1em;
+    background-color: aliceblue;
+}
+#turn {
+    display: none;
+}
+#turn.open {
+    display: block;
+}
+#turn p {
+    margin-top: 0px;
+    font-weight: 800;
+    color: red;
+}
+#player1, #player2 {
+    width: 10em;
+}
+#new_game {
+    width: 6em;
+    margin-left: 1em;
+}
+#hold {
+    margin-right: 2em;
+}
+input[type=button] {
+    border-radius: 1em;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+#new_game{
+    margin-bottom: 0px;
+    padding-right: 7em;
+}
